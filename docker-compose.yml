@@ -1,9 +1,10 @@
 version: "3"
 services:
   nodejs:
+    container_name: kate_node
     build: .
     ports:
-      - "3322:3322"
+      - "3234:3234"
     networks:
       - app-network
   db:
