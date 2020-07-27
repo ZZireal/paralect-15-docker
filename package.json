@@ -1,0 +1,27 @@
+{
+  "name": "paralect-15-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZZireal/paralect-15-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZZireal/paralect-15-docker/issues"
+  },
+  "homepage": "https://github.com/ZZireal/paralect-15-docker#readme",
+  "dependencies": {
+    "@paralect/node-mongo": "^2.0.0-beta.5",
+    "Router": "^2.1.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "router": "^1.3.5"
+  }
+}
