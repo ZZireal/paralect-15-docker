@@ -1,7 +1,7 @@
 version: "3"
 services:
   nodejs:
-    container_name: kate_node
+    container_name: kate_node_2
     build: .
     ports:
       - "3234:3234"
@@ -9,7 +9,7 @@ services:
       - app-network
   db:
     image: mongo:4.2
-    container_name: kate_mongo
+    container_name: kate_mongo_2
     volumes:
       - dbdata:/data/db
     networks:
