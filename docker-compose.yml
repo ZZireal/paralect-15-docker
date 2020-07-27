@@ -3,7 +3,7 @@ services:
   nodejs:
     build: .
     ports:
-      - "3030:3030"
+      - "3322:3322"
     networks:
       - app-network
   db:
