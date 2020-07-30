@@ -1,7 +1,6 @@
 {
   "name": "paralect-15-docker",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^9.1.0",
     "router": "^1.3.5"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
